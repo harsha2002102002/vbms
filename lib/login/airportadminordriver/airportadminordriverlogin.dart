@@ -12,14 +12,14 @@ class AirportAdminLogin extends StatelessWidget {
       builder: (aac) {
         return Scaffold(
           appBar: AppBar(
-            leading: GestureDetector(
-              onTap: () {
-                Get.back();
-              },
-              child: const Icon(Icons.arrow_back_ios),
-            ),
+            // leading: GestureDetector(
+            //   onTap: () {
+            //     Get.back();
+            //   },
+            //   child: const Icon(Icons.arrow_back_ios),
+            // ),
             title: Text(
-              '${aac.argumentData.toString()} Login',
+              'Login',
               style: const TextStyle(color: Color(0xFF2a2a2a), fontSize: 24),
             ),
           ),
