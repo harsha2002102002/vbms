@@ -1,15 +1,14 @@
 import 'dart:convert';
 import 'dart:developer';
-
-// import 'package:adanivehiclebooking/helpers/utilities.dart';
-// import 'package:adanivehiclebooking/views/driver/shiftdriver.dart';
+import 'package:vbms/helpers/utilities.dart';
+import 'package:vbms/views/driver/shiftdriver.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../apiservice/apiservice.dart';
-// import '../../../views/home/bottombar.dart';
-// import '../../../views/home/homepage.dart';
+import '../../../views/home/bottombar.dart';
+import '../../../views/home/homepage.dart';
 
 class AirportAdminOrDriverLoginController extends GetxController {
   dynamic argumentData = Get.arguments;
@@ -96,7 +95,11 @@ class AirportAdminOrDriverLoginController extends GetxController {
     prefs.setString("driverStatus", data[0]['driverStatus']['driverStatus']);
     prefs.setString("supplierName", data[0]['supplierDetails']['spocName']);
     prefs.setString("airportName", data[0]['masterAirportData']['airportName']);
+    prefs.setString("profileImgName", data[0]['profileImgName'].toString());
+    prefs.setString("uploadBaseImg", data[0]['uploadBaseImg'].toString());
     log('Driver shared preferencses==============');
+    log("profileImgName");
+    log(prefs.getBool('profileImgName').toString());
     log(prefs.getBool('isLogin').toString());
     log(prefs.getString('userID').toString());
     log(prefs.getString('emailID').toString());
@@ -120,10 +123,10 @@ class AirportAdminOrDriverLoginController extends GetxController {
     log("Status ");
     log(prefs.getString('driverStatus').toString());
 
-    // prefs.getString('driverStatus').toString() == "End Shift" ||
-    //         prefs.getString('driverStatus').toString() == "null"
-    //     ? Get.offAll(() => const ShiftDriver())
-    //     : Get.offAll(() => const BottomTile());
+    prefs.getString('driverStatus').toString() == "End Shift" ||
+            prefs.getString('driverStatus').toString() == "null"
+        ? Get.offAll(() => const ShiftDriver())
+        : Get.offAll(() => const BottomTile());
     update();
   }
 }

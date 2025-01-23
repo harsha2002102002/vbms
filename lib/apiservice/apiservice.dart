@@ -44,6 +44,7 @@ class ApiService {
       return e;
     }
   }
+
   static Future get(url) async {
     try {
       final response = await http.get(

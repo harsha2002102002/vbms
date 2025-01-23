@@ -12,15 +12,15 @@ class AirportAdminLogin extends StatelessWidget {
       builder: (aac) {
         return Scaffold(
           appBar: AppBar(
-            // leading: GestureDetector(
-            //   onTap: () {
-            //     Get.back();
-            //   },
-            //   child: const Icon(Icons.arrow_back_ios),
-            // ),
+            leading: GestureDetector(
+              onTap: () {
+                Get.back();
+              },
+              child: const Icon(Icons.arrow_back_ios),
+            ),
             title: Text(
-              'Login via',
-              style: const TextStyle(color: Color(0xFF2a2a2a), fontSize: 24),
+              '${aac.argumentData.toString()} Login',
+              style: const TextStyle(color: Color(0xFF2a2a2a), fontSize: 20,fontFamily: "Inter-Medium"),
             ),
           ),
           body: Padding(
@@ -34,8 +34,9 @@ class AirportAdminLogin extends StatelessWidget {
                     Image.asset('assets/images/logo.png'),
                     const SizedBox(height: 50),
                     TextFormField(
+                      keyboardType: TextInputType.emailAddress,
                       controller: aac.loginEmailIDorMobNo,
-                      style: const TextStyle(fontSize: 14),
+                      style: const TextStyle(fontSize: 14,fontFamily: "Inter-Medium"),
                       decoration: const InputDecoration(
                         hintText: "Email ID / Mobile No.",
                         border: UnderlineInputBorder(
@@ -58,7 +59,7 @@ class AirportAdminLogin extends StatelessWidget {
                     const SizedBox(height: 16),
                     TextFormField(
                       controller: aac.loginPassword,
-                      style: const TextStyle(fontSize: 14),
+                      style: const TextStyle(fontSize: 14,fontFamily: "Inter-Medium"),
                       decoration: InputDecoration(
                           hintText: "Password",
                           border: const UnderlineInputBorder(
