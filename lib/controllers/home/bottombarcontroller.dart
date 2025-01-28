@@ -92,7 +92,7 @@ class BottomTileController extends GetxController {
         const Icon(Icons.home_outlined, color: Colors.deepPurple),
         const Icon(Icons.drive_eta_rounded, color: Colors.deepPurple),
         Image.asset(
-          'assets/icons/driver_icon.png',
+          'packages/vbms/assets/icons/driver_icon.png',
           color: Colors.deepPurple,
         ),
         const Icon(Icons.person_outlined, color: Colors.deepPurple),
@@ -101,7 +101,7 @@ class BottomTileController extends GetxController {
         const Icon(Icons.home_outlined, color: Colors.grey),
         const Icon(Icons.drive_eta_rounded, color: Colors.grey),
         Image.asset(
-          'assets/icons/driver_icon.png',
+          'packages/vbms/assets/icons/driver_icon.png',
           color: Colors.grey,
         ),
         const Icon(Icons.person_outlined, color: Colors.grey),

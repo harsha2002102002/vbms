@@ -76,7 +76,7 @@ class BottomMyTripsScreenController extends GetxController
                 children: [
                   CircleAvatar(
                     radius: 80,
-                    foregroundImage: AssetImage('assets/gif/tracking.gif'),
+                    foregroundImage: AssetImage('packages/vbms/assets/gif/tracking.gif'),
                   ),
                   SizedBox(
                     height: 10,
@@ -97,7 +97,7 @@ class BottomMyTripsScreenController extends GetxController
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'assets/gif/carAnimation.gif',
+                        'packages/vbms/assets/gif/carAnimation.gif',
                         scale: 0.6,
                       ),
                       const SizedBox(
@@ -290,7 +290,7 @@ class BottomMyTripsScreenController extends GetxController
                 children: [
                   CircleAvatar(
                     radius: 80,
-                    foregroundImage: AssetImage('assets/gif/tracking.gif'),
+                    foregroundImage: AssetImage('packages/vbms/assets/gif/tracking.gif'),
                   ),
                   SizedBox(
                     height: 10,
@@ -311,7 +311,7 @@ class BottomMyTripsScreenController extends GetxController
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'assets/gif/carAnimation.gif',
+                        'packages/vbms/assets/gif/carAnimation.gif',
                         scale: 0.6,
                       ),
                       const SizedBox(
