@@ -11,9 +11,9 @@ import '../../views/driver/notifications.dart';
 class HomePageController extends GetxController {
   List vehicleNotificationDetails = [];
   final List<String> slideImages = [
-    "assets/images/slide1.png",
-    "assets/images/slide2.png",
-    "assets/images/slide3.png",
+    "packages/vbms/assets/images/slide1.png",
+    "packages/vbms/assets/images/slide2.png",
+    "packages/vbms/assets/images/slide3.png",
   ];
   String userRole = "";
   String? driverStatus;
