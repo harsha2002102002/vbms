@@ -434,7 +434,7 @@ class BookingStatusScreen extends StatelessWidget {
                                       CircleAvatar(
                                         radius: 60,
                                         foregroundImage: AssetImage(
-                                            'assets/gif/tracking.gif'),
+                                            'packages/vbms/assets/gif/tracking.gif'),
                                       ),
                                       SizedBox(height: 20),
                                       Text(
@@ -451,7 +451,7 @@ class BookingStatusScreen extends StatelessWidget {
                                       CircleAvatar(
                                         radius: 60,
                                         foregroundImage: AssetImage(
-                                            'assets/gif/tracking.gif'),
+                                            'packages/vbms/assets/gif/tracking.gif'),
                                       ),
                                       SizedBox(height: 20),
                                       Text(

@@ -53,7 +53,7 @@ class MyTripDetails extends StatelessWidget {
                         CircleAvatar(
                           radius: 80,
                           foregroundImage:
-                              AssetImage('assets/gif/tracking.gif'),
+                              AssetImage('packages/vbms/assets/gif/tracking.gif'),
                         ),
                         SizedBox(
                           height: 10,

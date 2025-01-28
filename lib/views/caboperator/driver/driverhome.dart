@@ -71,7 +71,7 @@ class _DriverHomeState extends State<DriverHome> {
                             children: [
                               SizedBox(height: 15,),
                               Image(
-                                image: AssetImage('assets/images/add_icon.png'),
+                                image: AssetImage('packages/vbms/assets/images/add_icon.png'),
                                 height: 80,
                                 width: 80,
                               ),
@@ -110,7 +110,7 @@ class _DriverHomeState extends State<DriverHome> {
                               SizedBox(height: 15,),
                               Image(
                                 image:
-                                    AssetImage('assets/images/list_icon.png'),
+                                    AssetImage('packages/vbms/assets/images/list_icon.png'),
                                 height: 80,
                                 width: 80,
                               ),

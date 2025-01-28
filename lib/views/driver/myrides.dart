@@ -48,7 +48,7 @@ class _MyRidesState extends State<MyRides> {
                             CircleAvatar(
                               radius: 80,
                               foregroundImage:
-                                  AssetImage('assets/gif/tracking.gif'),
+                                  AssetImage('packages/vbms/assets/gif/tracking.gif'),
                             ),
                             SizedBox(
                               height: 10,
@@ -304,7 +304,7 @@ class _MyRidesState extends State<MyRides> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Image.asset(
-                                  'assets/gif/carAnimation.gif',
+                                  'packages/vbms/assets/gif/carAnimation.gif',
                                   scale: 0.6,
                                 ),
                                 const SizedBox(

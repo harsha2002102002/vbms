@@ -42,7 +42,7 @@ class ProfilePage extends StatelessWidget {
                             const CircleAvatar(
                               radius: 80,
                               foregroundImage:
-                                  AssetImage('assets/gif/tracking.gif'),
+                                  AssetImage('packages/vbms/assets/gif/tracking.gif'),
                             ),
                             const SizedBox(
                               height: 10,

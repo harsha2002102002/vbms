@@ -67,7 +67,7 @@ class VehicleHome extends StatelessWidget {
                                 height: 15,
                               ),
                               Image(
-                                image: AssetImage('assets/images/add_icon.png'),
+                                image: AssetImage('packages/vbms/assets/images/add_icon.png'),
                                 height: 80,
                                 width: 80,
                               ),
@@ -107,7 +107,7 @@ class VehicleHome extends StatelessWidget {
                               ),
                               Image(
                                 image:
-                                    AssetImage('assets/images/list_icon.png'),
+                                    AssetImage('packages/vbms/assets/images/list_icon.png'),
                                 height: 80,
                                 width: 80,
                               ),

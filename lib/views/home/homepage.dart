@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                       Container(
                         margin: const EdgeInsets.only(top: 20, bottom: 10),
                         child: Image.asset(
-                          'assets/gif/bottomhome.gif',
+                          'packages/vbms/assets/gif/bottomhome.gif',
                           scale: 0.1,
                         ),
                       ),

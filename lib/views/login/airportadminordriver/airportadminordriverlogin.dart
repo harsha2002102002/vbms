@@ -31,7 +31,7 @@ class AirportAdminLogin extends StatelessWidget {
                 child: Column(
                   children: [
                     const SizedBox(height: 50),
-                    Image.asset('assets/images/logo.png'),
+                    Image.asset('packages/vbms/assets/images/logo.png'),
                     const SizedBox(height: 50),
                     TextFormField(
                       keyboardType: TextInputType.emailAddress,
