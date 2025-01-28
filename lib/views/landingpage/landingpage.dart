@@ -22,7 +22,7 @@ class LandingPage extends StatelessWidget {
             child: Column(
               children: [
                 Image.asset(
-                  "assets/images/appbar_bg.png",
+                  'packages/vbms/assets/images/logo.png',
                 ),
                 const SizedBox(
                   height: 20,
